@@ -9,7 +9,7 @@ function Intro() {
                 <h1 className="intro--name">Chakane Shegog</h1>
                 <h2 className="intro--occupation">Software Engineer</h2>
                 <button className="intro--button">
-                    <p>Link to github</p>
+                    <a href="https://github.com/chakane3">Link to github</a>
                 </button>   
             </div>
             

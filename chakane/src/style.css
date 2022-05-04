@@ -21,8 +21,11 @@
 }
 
 .nav {
+    position: fixed;
     background-color: black;
-    margin: -10px;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .intro {
@@ -37,6 +40,8 @@
     height: calc(100vh - 98px);
 
 }
+
+
 
 .intro--left {
     position: relative;
@@ -65,6 +70,17 @@
     font-size: 20px;
     position: relative;
     left: 135px;
+}
+
+@media only screen and (max-width: 600px) {
+   .intro--college, .intro--degree {
+       display: none;
+   }
+
+   .intro--left {
+       left:-10px;
+   }
+
 }
 
 .intro--college {
@@ -99,7 +115,10 @@
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -20px;
-    background-color: yellow;
+    background-color: rgb(245, 191, 66);
     height: calc(105vh - 98px);
 }
+
+
+
 

@@ -1,0 +1,105 @@
+.nav--tabs {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: black;
+    color: #FFFFFF;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    margin: 0px;
+
+}
+
+.nav--tabs > li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    margin: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: black;
+    margin: -10px;
+}
+
+.intro {
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: black;
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 98px);
+
+}
+
+.intro--left {
+    position: relative;
+    left: 120px;
+    top: -120px;
+}
+
+.intro--right {
+    position: relative;
+    right: 120px;
+    top: -120px;
+
+}
+
+.intro--left > h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    position: relative;
+    left: 100px;
+    
+}
+
+.intro--left > h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    left: 135px;
+}
+
+.intro--college {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+
+.intro--degree {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    left: 30px;
+    
+}
+
+.intro--button {
+    color: #FFFFFF;
+    background-color: black;
+    border-color: grey;
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    
+}
+
+.projects {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -20px;
+    background-color: yellow;
+    height: calc(105vh - 98px);
+}
+

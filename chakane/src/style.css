@@ -1,31 +1,10 @@
-.nav--tabs {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    background-color: black;
-    color: #FFFFFF;
-    padding-bottom: 35px;
-    padding-top: 35px;
-    margin: 0px;
-
-}
-
-.nav--tabs > li {
-    font-family: 'Inter', sans-serif;
-    font-weight: 100;
-    margin: 10px;
-}
-
 * {
     box-sizing: border-box;
-}
-
-.nav {
-    position: fixed;
-    background-color: black;
-    width: 100%;
-    top: 0;
-    left: 0;
+    /* background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important; */
+    padding: 0;
+    margin: 0;
 }
 
 .intro {
@@ -37,23 +16,24 @@
     font-family: 'Inter', sans-serif;
     justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 98px);
-
+    height: calc(115vh - 98px);
 }
-
-
 
 .intro--left {
     position: relative;
-    left: 120px;
-    top: -120px;
+    left: 120px; 
+    top: -20%;
+
 }
 
 .intro--right {
     position: relative;
-    right: 120px;
-    top: -120px;
+    right:18%;
+    top: -18%;
+}
 
+.intro--right > h3, .intro--right > h2  {
+    text-align: center;
 }
 
 .intro--left > h1 {
@@ -61,7 +41,6 @@
     font-weight: 200;
     position: relative;
     left: 100px;
-    
 }
 
 .intro--left > h2 {
@@ -70,17 +49,6 @@
     font-size: 20px;
     position: relative;
     left: 135px;
-}
-
-@media only screen and (max-width: 600px) {
-   .intro--college, .intro--degree {
-       display: none;
-   }
-
-   .intro--left {
-       left:-10px;
-   }
-
 }
 
 .intro--college {
@@ -97,7 +65,7 @@
     font-weight: 100;
     font-size: 15px;
     color: white;
-    left: 30px;
+
     
 }
 
@@ -111,14 +79,97 @@
     
 }
 
+.intro--college, .intro--degree {
+    left:30%;
+}
+
 .projects {
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: -20px;
+    margin-top: -30px;
     background-color: rgb(245, 191, 66);
-    height: calc(105vh - 98px);
+    height: calc(100vh - 100px);
+
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.projects--proj1, .projects--proj2 {
+    width:100%;
+    height:0;
+    padding-bottom:203%;
+    position:relative;
+}
+
+.projects--proj1 iframe {
+    position: absolute;
+    top: -100px;
+
 }
 
 
+/* .projects--proj1, .projects--proj2, .projects--proj3 {
+    border: 5px solid black;
+} */
+
+
+.seflie {
+    position:absolute;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    top:50px;
+    left:50%;
+    
+}
+
+.ohio {
+    max-width: 101%;
+    max-height: 100%;
+    height: auto;
+    /* margin-left: -10px; */
+    z-index: -2;
+    
+}
+
+.aboutMe {
+    position: relative;
+}
+
+.footer {
+    text-align: center;
+} 
+
+@media only screen and (max-width: 600px) {
+    .intro--college, .intro--degree {
+        display: none;
+    }
+ 
+    .intro--left {
+        left:-10px;
+    }
+ 
+    .seflie {
+     position:absolute;
+     width:50px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     z-index: 1;
+     top:50px;
+     left:50%;
+     }
+ 
+     .intro--quote {
+         position: relative;
+         font-size: 10px;
+         top:25px;
+         display: none;
+     }
+ 
+ }
 
 

@@ -96,16 +96,12 @@
 }
 
 .projects--proj1, .projects--proj2 {
-    width:100%;
-    height:0;
-    padding-bottom:203%;
-    position:relative;
-}
-
-.projects--proj1 iframe {
-    position: absolute;
-    top: -100px;
-
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 10px;
+    text-align: center;
 }
 
 

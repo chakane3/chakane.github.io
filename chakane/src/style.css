@@ -8,35 +8,24 @@
 }
 
 .intro {
-    /* margin-left: -100px;
-    margin-right: -10px; */
     background-color: black;
-    /* display: flex; */
     color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     height: calc(118vh - 98px);
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px;
 }
+.intro--right, .intro--left {
 
-
-.intro--left, .intro--right, #intro--button{
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-block;
     position: relative;
     top: 35%;
-    /* text-align: center; */
-    /* right: 0px; */
-    font-family: 'Inter', sans-serif;
-    font-weight: 100;
-    /* margin-left: px; */
-    /* width: 50%; */
 }
 
-.intro--left, .intro--right {
+.intro--name {
+    position: relative;
     font-family: 'Inter', sans-serif;
-    font-weight: 200;
-
+    font-weight: 100;
 }
 
 .intro--occupation {
@@ -44,16 +33,22 @@
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     font-size: 15px;
-    left:40px;
+    left:265px;
 }
 
-.intro--name {
+.intro--btn {
+    /* color: #FFFFFF; */
+    background-color: black;
+    border-color: grey;
     position: relative;
-    font-family: 'Inter', sans-serif;
-    font-weight: 100;
-
-
+    width: 250px;
+    top: 10px;
 }
+
+.intro--name, .intro--btn {
+    left: 200px;
+}
+
 
 .intro--college {
     position: relative;
@@ -61,13 +56,7 @@
     font-weight: 100;
     font-size: 15px;
     color: white;
-    top: 10px;
-    left: -100px;
-}
-
-.intro--college, .intro--degree {
-    position: relative;
-    /* margin-left: 200px; */
+    margin-left: 30px;
 }
 
 .intro--degree {
@@ -76,30 +65,15 @@
     font-weight: 100;
     font-size: 15px;
     color: white;
-    left: 100px;
-    bottom: 10px;
+ 
 }
-
-.intro--college {
-    left:50px;
-}
-
-.intro--btn {
-    /* color: #FFFFFF; */
-    background-color: black;
-    border-color: grey;
-    position: relative;
-    left: -22.8%;
-    /* left: 65px; */
-
-    width: 250px;
+.intro--college, .intro--degree {
+    left: 180%;
 }
 
 .intro--btn > a {
     color: #FFFFFF;
 }
-
-
 
 .projects {
     margin-left: -10px;

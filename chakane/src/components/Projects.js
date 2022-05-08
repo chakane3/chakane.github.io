@@ -1,5 +1,9 @@
 import React from "react"
 import ReactDom from "react-dom"
+/*TODO: Figure out how to upload a local gif 
+        where a user can click on it and go right to the
+        github repo
+*/
 
 function Projects() {
     return (

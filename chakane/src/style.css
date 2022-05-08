@@ -9,6 +9,7 @@
 
 .intro {
     background-color: black;
+    /* background-repeat: repeat; */
     color: #FFFFFF;
     height: calc(118vh - 98px);
     position: relative;

@@ -17,6 +17,13 @@ function Projects() {
                 <iframe src="https://giphy.com/embed/OMU8kYGKOWFIEYdosa" width="236" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
             </div>
 
+            <div className="projects--proj3">
+                <p>Artificial Neural Network</p>
+                <iframe src="https://giphy.com/embed/Ng5yoEhZG6FZ1erH19" width="480" height="296" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                
+                 
+            </div>
+
             
         </div>
     )

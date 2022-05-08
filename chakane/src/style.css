@@ -8,55 +8,66 @@
 }
 
 .intro {
-    margin-left: -10px;
-    margin-right: -10px;
+    /* margin-left: -100px;
+    margin-right: -10px; */
     background-color: black;
-    display: flex;
+    /* display: flex; */
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
-    justify-content: space-between;
-    align-items: center;
-    height: calc(115vh - 98px);
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: calc(118vh - 98px);
 }
 
-.intro--left {
+
+.intro--left, .intro--right, #intro--button{
+    display: flex;
+    justify-content: space-evenly;
     position: relative;
-    left: 120px; 
-    top: -20%;
-
-}
-
-.intro--right {
-    position: relative;
-    right:18%;
-    top: -18%;
-}
-
-.intro--right > h3, .intro--right > h2  {
-    text-align: center;
-}
-
-.intro--left > h1 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 200;
-    position: relative;
-    left: 100px;
-}
-
-.intro--left > h2 {
+    top: 35%;
+    /* text-align: center; */
+    /* right: 0px; */
     font-family: 'Inter', sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    /* margin-left: px; */
+    /* width: 50%; */
+}
+
+.intro--left, .intro--right {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+
+}
+
+.intro--occupation {
     position: relative;
-    left: 135px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    left:40px;
+}
+
+.intro--name {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+
+
 }
 
 .intro--college {
     position: relative;
     font-family: 'Inter', sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
+    top: 10px;
+    left: -100px;
+}
+
+.intro--college, .intro--degree {
+    position: relative;
+    /* margin-left: 200px; */
 }
 
 .intro--degree {
@@ -65,23 +76,30 @@
     font-weight: 100;
     font-size: 15px;
     color: white;
-
-    
+    left: 100px;
+    bottom: 10px;
 }
 
-.intro--button {
-    color: #FFFFFF;
+.intro--college {
+    left:50px;
+}
+
+.intro--btn {
+    /* color: #FFFFFF; */
     background-color: black;
     border-color: grey;
-    position: absolute;
-    left: 100px;
+    position: relative;
+    left: -22.8%;
+    /* left: 65px; */
+
     width: 250px;
-    
 }
 
-.intro--college, .intro--degree {
-    left:30%;
+.intro--btn > a {
+    color: #FFFFFF;
 }
+
+
 
 .projects {
     margin-left: -10px;
@@ -118,8 +136,7 @@
     margin-right: auto;
     z-index: 1;
     top:50px;
-    left:50%;
-    
+    left:50%; 
 }
 
 .ohio {
@@ -138,6 +155,14 @@
 .footer {
     text-align: center;
 } 
+
+#intro--quote {
+    position: relative;
+    top:120px;
+    font-size: 10px;
+    left: 30%;
+
+}
 
 @media only screen and (max-width: 600px) {
     .intro--college, .intro--degree {
@@ -161,9 +186,12 @@
  
      .intro--quote {
          position: relative;
-         font-size: 10px;
-         top:25px;
-         display: none;
+         /* display: flex; */
+         /* justify-content: flex-start; */
+
+         /* font-size: 10px; */
+         /* top:500px; */
+         /* display: none; */
      }
  
  }
